@@ -33,5 +33,11 @@ The Python code running on the x86 PC communicates with an microcontroller throu
 -------------------------------------------------------------------------------------------------------------------------------------
 ##Hardware used 
 
-- 
+- <img src="http://www.xanthium.in/sites/default/files/site-images/product-page/usb_to_rs485_converter_250px.jpg"/>
+   - **USB to RS485/RS232/Serial Converter**
+   - <a href = "http://xanthium.in/USB-to-Serial-RS232-RS485-Converter">Details can be found here </a>
+   
+- <img src="http://www.xanthium.in/sites/default/files/site-images/msp430-launchpad-tutorial-brief-intro/msp430-launchpad-tutorial-for-beginners.jpg"/>
+ - **MSP430 Launchpad Development Board**
+ - <a href = "http://www.xanthium.in/brief-introduction-msp430g2xxx-using-ti-launchpad-development-board">A short tutorial can be found here</a>
   
