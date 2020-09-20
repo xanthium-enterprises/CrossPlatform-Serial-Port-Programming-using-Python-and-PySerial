@@ -8,14 +8,16 @@ A short introduction into serial port programming using Python and PySerial Libr
 
 The Python code running on the **x86/x64** PC communicates with an microcontroller through serial link (TX,RX and Ground). 
 
-<a href ="http://www.xanthium.in/Cross-Platform-serial-communication-using-Python-and-PySerial">Original tutorial can be found here </a>
-
 - Runs on Both Linux and Windows
 - supports both Python 2.7.x and Python 3.x.x Versions
 - Microcontroller used is MSP430G2553 on Launchpad
 - MSP430 Codes written in C and Compiled using IAR Embedded WorkBench
 
 ---------------------------------------------------------------------------------------------------------------------------------------
+
+## Online Tutorial
+
+- [Python Serial Communication program for embedded development using PySerial library](https://www.xanthium.in/Cross-Platform-serial-communication-using-Python-and-PySerial)
 
 ## Source Code Explanation
 
