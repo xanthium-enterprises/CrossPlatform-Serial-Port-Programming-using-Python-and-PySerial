@@ -19,6 +19,8 @@ The Python code running on the **x86/x64** PC communicates with an microcontroll
 
 - [Python Serial Communication program for embedded development using PySerial library](https://www.xanthium.in/Cross-Platform-serial-communication-using-Python-and-PySerial)
 
+---------------------------------------------------------------------------------------------------------------------------------------
+
 ## Source Code Explanation
 
 - **RTS&DTR Pin Control in Python** - Contains Code for Controlling RTS and DTR pins of SerialPort or that of a USB to Serial Converter
