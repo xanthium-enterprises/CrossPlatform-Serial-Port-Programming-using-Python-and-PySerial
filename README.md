@@ -39,4 +39,5 @@ The Python code running on the **x86/x64** PC communicates with an microcontroll
 ## Hardware used 
 
 
+- [USB to Serial/RS485 Converter](https://www.xanthium.in/ft232-based-usb-to-serial-rs485-converter-industrial-scientific-applications)
   
