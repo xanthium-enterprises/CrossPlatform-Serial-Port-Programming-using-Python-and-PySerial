@@ -14,7 +14,7 @@ The Python code running on the x86 PC communicates with an microcontroller throu
 
 ---------------------------------------------------------------------------------------------------------------------------------------
 
-##Source Code Explanation
+## Source Code Explanation
 
 - **RTS&DTR Pin Control in Python** - Contains Code for Controlling RTS and DTR pins of SerialPort or that of a USB to Serial Converter
 
@@ -24,14 +24,14 @@ The Python code running on the x86 PC communicates with an microcontroller throu
    - **USB2SERIAL_Write** - PC transmits a character to MSP430 and MSP430 lights up an LED on receiving the character from PC.
   
 -------------------------------------------------------------------------------------------------------------------------------------
-##Circuit 
+## Circuit 
 
 - <a href ="http://www.xanthium.in/Cross-Platform-serial-communication-using-Python-and-PySerial">Available  in the original Tutorial</a>
 
 <img src ="http://xanthium.in/sites/default/files/site-images/serial-prog-linux/MSP430-Connected-to-USB2SERIAL_Marked.jpg"/>
 
 -------------------------------------------------------------------------------------------------------------------------------------
-##Hardware used 
+## Hardware used 
 
 - <img src="http://www.xanthium.in/sites/default/files/site-images/product-page/usb_to_rs485_converter_250px.jpg"/>
    - **USB to RS485/RS232/Serial Converter**
