@@ -22,9 +22,7 @@ The Python code running on the **x86/x64** PC communicates with an microcontroll
 
 ---------------------------------------------------------------------------------------------------------------------------------------
 
-## Source Code Explanation
 
-- 
   
 -------------------------------------------------------------------------------------------------------------------------------------
 
@@ -37,5 +35,7 @@ The Python code running on the **x86/x64** PC communicates with an microcontroll
 ## Hardware used 
 
 
-- [USB to Serial/RS485 Converter](https://www.xanthium.in/ft232-based-usb-to-serial-rs485-converter-industrial-scientific-applications)
+- [USB to Serial/RS485 Converter](https://www.xanthium.in/USB-to-Serial-RS232-RS485-Converter)
+
+- <img src ="https://www.xanthium.in/sites/default/files/site-images/usb2serial-converter/USB-to-serial-rs232-rs485-converter-data-sheet.png"/>
   
