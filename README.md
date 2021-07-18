@@ -22,10 +22,6 @@ The Python code running on the **x86/x64** PC communicates with an microcontroll
 
 ---------------------------------------------------------------------------------------------------------------------------------------
 
-
-  
--------------------------------------------------------------------------------------------------------------------------------------
-
 ## Circuit 
 
 - <a href ="http://www.xanthium.in/Cross-Platform-serial-communication-using-Python-and-PySerial">Available  in the original Tutorial</a>
