@@ -5,6 +5,10 @@ import serial
 
 try:
     SerialObj = serial.Serial('COM17',9600) # open the Serial Port
+                                            # /dev/ttyUSBx format on Linux
+                                            #
+                                            # Eg /dev/ttyUSB0
+                                            # SerialObj = serial.Serial('/dev/ttyUSB0')
     print('Port Details ->',SerialObj)      # display the properties of Serial Port
     
 except serial.SerialException as var :

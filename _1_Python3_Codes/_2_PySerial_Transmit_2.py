@@ -5,7 +5,10 @@ import serial
 import time
 
 SerialObj = serial.Serial('COM11') # COMxx   format on Windows
-                                   # ttyUSBx format on Linux
+                                   #/dev/ttyUSBx format on Linux
+                                   #
+                                   #Eg /dev/ttyUSB0
+                                   #SerialObj = serial.Serial('/dev/ttyUSB0')
                                    
 #SerialObj = serial.Serial('COM11',9600)
 

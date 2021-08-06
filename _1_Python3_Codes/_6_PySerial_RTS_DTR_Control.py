@@ -11,7 +11,10 @@ HIGH = 1
 LOW  = 0
 
 SerialObj = serial.Serial('COM6',9600)  # COMxx   format on Windows
-                                        # ttyUSBx format on Linux
+                                        # /dev/ttyUSBx format on Linux
+                                        #
+                                        # Eg /dev/ttyUSB0
+                                        # SerialObj = serial.Serial('/dev/ttyUSB0')
                         
 SerialObj.rts = HIGH  #Make RTS High
 time.sleep(1)
