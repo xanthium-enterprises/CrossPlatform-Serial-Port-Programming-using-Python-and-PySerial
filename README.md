@@ -6,6 +6,9 @@
 
 A short introduction into serial port programming using Python and PySerial Library on **Windows** and **Linux** Systems.
 
+- Python 3.8.x language 
+- Pyserial 3.4 Library
+
 The Python code running on the **x86/x64** PC communicates with an microcontroller through serial link (TX,RX and Ground). 
 
 - Runs on Both Linux and Windows
