@@ -16,6 +16,16 @@ The Python code running on the **x86/x64** PC communicates with an microcontroll
 - ATmega328P Codes written in Embedded C (WinAVR)
 
 ---------------------------------------------------------------------------------------------------------------------------------------
+## Pyserial on Linux
+
+- Linux Specific parts of using Pyserial and avoiding access to serial port denied can be found below
+- [Python Serial Communication using PySerial on **Linux platform** {*Linux specific parts*}](https://www.xanthium.in/linux-serial-port-programming-using-python-pyserial-and-arduino-avr-pic-microcontroller)
+- Codes tested on **Ubuntu 20.04 LTS** and **Rocky Linux 8 (Centos/RHEL Family)**
+- Change permissions using **chmod** command before running on Linux.
+- Run the codes like *[user@loclahost]$ python3 _Number_PythonCode_repo.py*
+- If you are experiencing **permission to /dev/ttyUSB0 denied errors** check the above tutorial
+---------------------------------------------------------------------------------------------------------------------------------------
+
 ## Codes in Repo 
 
 - **_1_Python3_Codes** 
