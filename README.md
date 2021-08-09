@@ -15,6 +15,14 @@ The Python code running on the **x86/x64** PC communicates with an microcontroll
 - MSP430 Codes written in C and Compiled using IAR Embedded WorkBench
 
 ---------------------------------------------------------------------------------------------------------------------------------------
+## Codes in Repo 
+
+- **_1_Python3_Codes** 
+- **_2_Arduino_Uno_Codes**
+- **_3_MSP430G2553_Codes**
+- **_4_ATmega328P_Embedded_C_Codes**
+
+--------------------------------------------------------------------------------------------------------------------------------------
 
 ## Online Tutorial
 
