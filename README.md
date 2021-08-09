@@ -1,7 +1,7 @@
 # Cross Platform Serial programming using Python and PySerial
 
-<img src ="https://www.xanthium.in/sites/default/files/site-images/serial-prog-python/serial-port-programming-python-pyserial.jpg"/>
 
+![Python serial programmming using pyserial tutorial](https://www.xanthium.in/sites/default/files/site-images/serial-prog-python/serial-port-programming-python-pyserial.jpg)
 -----------------------------------------------------------------------------------------------------------------------------------------
 
 A short introduction into serial port programming using Python and PySerial Library on **Windows** and **Linux** Systems.
@@ -17,6 +17,8 @@ The Python code running on the **x86/x64** PC communicates with an microcontroll
 
 ---------------------------------------------------------------------------------------------------------------------------------------
 ## Pyserial on Linux
+
+![Python serial programmming using pyserial on linux tutorial](https://www.xanthium.in/sites/default/files/site-images/serial-prog-python/python-serial-programming-tutorial-banner.jpg)
 
 - Linux Specific parts of using Pyserial and avoiding access to serial port denied can be found below
 - [Python Serial Communication using PySerial on **Linux platform** {*Linux specific parts*}](https://www.xanthium.in/linux-serial-port-programming-using-python-pyserial-and-arduino-avr-pic-microcontroller)
