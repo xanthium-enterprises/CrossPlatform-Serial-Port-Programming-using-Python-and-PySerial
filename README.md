@@ -13,6 +13,7 @@ The Python code running on the **x86/x64** PC communicates with an microcontroll
 - Added Arduino codes
 - Microcontroller used is MSP430G2553 on Launchpad
 - MSP430 Codes written in C and Compiled using IAR Embedded WorkBench
+- ATmega328P Codes written in Embedded C (WinAVR)
 
 ---------------------------------------------------------------------------------------------------------------------------------------
 ## Codes in Repo 
@@ -27,6 +28,7 @@ The Python code running on the **x86/x64** PC communicates with an microcontroll
 ## Online Tutorial
 
 - [Python Serial Communication program for embedded development using PySerial library](https://www.xanthium.in/Cross-Platform-serial-communication-using-Python-and-PySerial)
+- [Python Serial Communication using PySerial on **Linux platform** {*Linux specific parts*}](https://www.xanthium.in/linux-serial-port-programming-using-python-pyserial-and-arduino-avr-pic-microcontroller)
 
 ---------------------------------------------------------------------------------------------------------------------------------------
 
