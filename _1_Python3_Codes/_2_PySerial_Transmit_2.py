@@ -4,13 +4,16 @@
 import serial
 import time
 
-SerialObj = serial.Serial('COM11') # COMxx   format on Windows
+COMPort_Name = input("Enter COM Port number -")
+
+SerialObj = serial.Serial(COMPort_Name)
+
+								   # COMxx   format on Windows
                                    #/dev/ttyUSBx format on Linux
                                    #
                                    #Eg /dev/ttyUSB0
                                    #SerialObj = serial.Serial('/dev/ttyUSB0')
-                                   
-#SerialObj = serial.Serial('COM11',9600)
+                                   #SerialObj = serial.Serial('COM11',9600)
 
 print(SerialObj) #display default parameters
 
@@ -28,6 +31,7 @@ print(SerialObj)
 
 BytesWritten = SerialObj.write(b'A')
 
+#Convert String to Byte format
 text = 'H'
 text = bytearray(text,'utf8')
 
