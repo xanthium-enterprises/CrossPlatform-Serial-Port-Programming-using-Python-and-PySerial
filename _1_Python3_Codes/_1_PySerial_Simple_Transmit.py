@@ -1,8 +1,10 @@
 # Python code transmits a byte 'A' to Arduino /Microcontroller to Blink LED
 # Requires PySerial
 
-# (c) www.xanthium.in 2021
+# (c) www.xanthium.in 2022
 # Rahul.S
+
+# https://www.xanthium.in/Cross-Platform-serial-communication-using-Python-and-PySerial
 
 
 import serial
@@ -26,8 +28,12 @@ time.sleep(3)   # Only needed for Arduino,For AVR/PIC/MSP430 & other Micros not 
                 # Both Arduino and Python code are sharing Com11 here.
                 # 3 second delay allows the Arduino to settle down.
 
-BytesWritten = SerialObj.write(b'A')      #transmit 'A' (8bit) to micro/Arduino
+BytesWritten = SerialObj.write(b'A')      # transmit 'A' (8bit) to micro/Arduino
+                                          # Declare A as a Byte (b'A')
 
 print('BytesWritten = ', BytesWritten)
 
 SerialObj.close()          # Close the port
+
+
+
