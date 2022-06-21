@@ -19,7 +19,7 @@ time.sleep(3)   # Only needed for Arduino,For AVR/PIC/MSP430 & other Micros not 
                 # 3 second delay allows the Arduino to settle down.
 
 
-
+SerialObj.timeout = 3 # set the Read Timeout
 ReceivedString = SerialObj.readline() #readline reads a string terminated by \n
 
 print(ReceivedString)

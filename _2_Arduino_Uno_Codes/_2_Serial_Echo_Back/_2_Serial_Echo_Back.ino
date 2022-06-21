@@ -23,7 +23,7 @@ void loop()
  if (Serial.available()) 
     {
       RxedByte = Serial.read();    
-      Serial.println(RxedByte);
+      Serial.print(RxedByte);
       
     }//endof if 
 }
