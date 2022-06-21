@@ -10,7 +10,7 @@
 import serial
 import time
 
-SerialObj = serial.Serial('COM11') # COMxx   format on Windows
+SerialObj = serial.Serial('COM4') # COMxx   format on Windows
 
                                    
                                    #/dev/ttyUSBx format on Linux
@@ -22,6 +22,16 @@ SerialObj.baudrate = 9600  # set Baud rate to 9600
 SerialObj.bytesize = 8     # Number of data bits = 8
 SerialObj.parity   ='N'    # No parity
 SerialObj.stopbits = 1     # Number of Stop bits = 1
+
+#Another way to configure the Ports
+#SerialObj.bytesize = serial.EIGHTBITS     # Number of data bits = 8
+#SerialObj.bytesize = serial.SEVENBITS     # Number of data bits = 7
+
+#SerialObj.parity   = serial.PARITY_NONE   # No parity
+#SerialObj.parity   = serial.PARITY_EVEN   # Parity Even
+
+#SerialObj.stopbits = serial.STOPBITS_ONE  # Number of Stop bits = 1
+
 
 time.sleep(3)   # Only needed for Arduino,For AVR/PIC/MSP430 & other Micros not needed
                 # opening the serial port from Python will reset the Arduino.
