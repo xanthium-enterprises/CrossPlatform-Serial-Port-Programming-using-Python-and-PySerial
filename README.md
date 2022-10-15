@@ -19,6 +19,13 @@ The Python code running on the **x86/x64** PC communicates with an microcontroll
 - ATmega328P Codes written in Embedded C (WinAVR)
 
 ---------------------------------------------------------------------------------------------------------------------------------------
+## Youtube Tutorials
+
+- ![Serial Port Communication between PC and Arduino using Python and PySerial Module for Beginners Pt-1](https://www.youtube.com/watch?v=tbrOlIoyRh4)
+- ![Serial Port Communication between **Linux (ubuntu)** and Arduino using Python and PySerial Module Pt-2](https://www.youtube.com/watch?v=aV14zGqkLN0)
+- ![Learn to Handle PySerial Exceptions in Python Serial Communication with Arduino](https://www.youtube.com/watch?v=RB-t55DTSoE)
+
+---------------------------------------------------------------------------------------------------------------------------------------
 ## Pyserial on Linux
 
 ![Python serial programmming using pyserial on linux tutorial](https://www.xanthium.in/sites/default/files/site-images/serial-prog-python/python-serial-programming-tutorial-banner.jpg)
